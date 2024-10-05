@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <>
+    <div>
       <RecipeItem recipe={{
         id: 1,
         name: 'Суп'
@@ -19,7 +19,7 @@ function App() {
         name: 'Каша'
       }} />
 
-    </>
+    </div>
   )
 }
 
