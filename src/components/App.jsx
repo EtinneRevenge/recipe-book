@@ -1,5 +1,8 @@
 import Header from './header/Header'
 import { RecipeItem } from './recipe-item/RecipItem'
+import { User } from './user/user'
+
+
 
 
 function App() {
@@ -8,6 +11,7 @@ function App() {
   return (
     <section>
       <Header />
+      <User></User>
       <div>
         <RecipeItem recipe={{
           id: 1,
