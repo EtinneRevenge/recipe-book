@@ -16,7 +16,7 @@ export function RecipeItem({ recipe }) {
 
     return (
         <div className={styles.item}>
-            {/* <img src="" alt=""></img> */}
+            <img src={recipe.image} alt=""></img>
             <h3>{recipe.name}</h3>
             <button onClick={() => toggleFavorites(recipe)}>
                 {isExist ? 'Remove from' : 'Add to'} favorites</button>

@@ -8,7 +8,7 @@ import { User } from './user/user'
 
 function App() {
   const { isLoading, data } = useGetRecipesQuery()
-  console.log(data)
+
 
   return (
     <section>
