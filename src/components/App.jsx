@@ -13,7 +13,7 @@ function App() {
   return (
     <section>
       <Header />
-      <User></User>
+      {/* <User></User> */}
       <div>
         {isLoading ? (<div>Loading...</div>)
           : data ? (data.map(recipe => <RecipeItem key={recipe.id} recipe={recipe} />))
