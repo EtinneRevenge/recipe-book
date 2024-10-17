@@ -36,9 +36,14 @@
       "image": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg"
     },
     {
-      "id": 8,
-      "name": "Beef Brisket Pot Roast",
-      "image": "https://www.themealdb.com/images/media/meals/ursuup1487348423.jpg"
+      "name": "Christmas Pudding Flapjack",
+      "image": "https://www.themealdb.com/images/media/meals/vvusxs1483907034.jpg",
+      "id": 8
+    },
+    {
+      "name": "Coq au vin",
+      "image": "https://www.themealdb.com/images/media/meals/qstyvs1505931190.jpg",
+      "id": 9
     }
   ]
 }
